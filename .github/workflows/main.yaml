@@ -23,6 +23,8 @@ jobs:
         file: ./api/Dockerfile
         context: ./api
         push: true
-        tags: emma1999/blog-api:${{ github.sha }}
+        tags: |
+          emma1999/blog-api:latest
+          emma1999/blog-api:${{ github.sha }}
 
       
