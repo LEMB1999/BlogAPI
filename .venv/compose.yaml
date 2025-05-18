@@ -1,0 +1,13 @@
+services:
+  db:
+    image: mongodb/mongodb-community-server:7.0.6-ubi8
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=client
+      - MONGO_INITDB_ROOT_PASSWORD=qwe123.
+    volumes:
+      - db-data:/data/db
+
+volumes:
+  db-data:
