@@ -1,0 +1,8 @@
+_pycache/_
+.pytest_cache/
+.vscode/
+tests/
+Include/
+Lib/
+Scripts/
+.gitignore

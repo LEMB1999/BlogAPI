@@ -1,0 +1,9 @@
+Flask
+git+https://github.com/idoshr/flask-mongoengine.git@1.0.1
+python-dotenv
+pyjwt
+cryptography
+bcrypt
+pytest
+pytest-mock
+gunicorn

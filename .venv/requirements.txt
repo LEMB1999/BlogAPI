@@ -1,8 +1,0 @@
-Flask
-flask-mongoengine
-python-dotenv
-pyjwt
-cryptography
-bcrypt
-pytest
-pytest-mock
